@@ -15,6 +15,7 @@
   --dark-bg-cl: #2f303a;
   --header-border-cl: #ececec;
   --gallery-item-border-cl: #eeeeee;
+  --main-icon-cl: #afb1b8;
 }
 
 body {
@@ -209,6 +210,8 @@ img {
   letter-spacing: 0.06em;
   color: var(--third-txt-cl);
   background-color: var(--accent-cl);
+  border: none;
+  border-radius: 4px;
 }
 
 .hero-btn:hover,
@@ -332,6 +335,10 @@ img {
 .team-group {
   padding-top: 30px;
   padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  width: 270px;
+  align-items: center;
 }
 
 .team-subtitle {
@@ -349,8 +356,33 @@ img {
   line-height: 1.19;
   text-align: center;
   color: var(--main-txt-cl);
+  margin-bottom: 16px;
 }
 
+.team-social-item {
+  display: flex;
+}
+
+.team-social-link {
+  margin-right: 10px;
+  width: 44px;
+  height: 44px;
+  fill: var(--main-icon-cl);
+  display: flex;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+.team-social-link:last-child {
+  margin-right: 0;
+}
+
+.team-social-link:hover,
+.team-social-link:focus {
+  background-color: var(--accent-cl);
+  fill: var(--main-bg-cl);
+}
 /* Our clients */
 
 /* Page footer */
