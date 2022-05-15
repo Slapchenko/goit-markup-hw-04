@@ -239,7 +239,7 @@ img {
 .features-item {
   margin-right: 30px;
   width: 270px;
-  height: 101px;
+  /* height: 101px; */
 }
 
 .features-item:last-child {
@@ -269,6 +269,15 @@ img {
   font-size: 14px;
   line-height: 1.71;
   color: var(--main-txt-cl);
+}
+
+.icon-features {
+  margin-bottom: 30px;
+  padding: 25px 100px;
+  width: 270px;
+  height: 120px;
+  background-color: var(--secondary-bg-cl);
+  border-radius: 4px;
 }
 
 .services {
