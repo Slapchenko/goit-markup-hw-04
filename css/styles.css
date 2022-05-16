@@ -428,14 +428,15 @@ img {
 }
 
 .footer-container {
-  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
 }
 
 .logo-box {
   margin-right: 70px;
   display: flex;
   flex-direction: column;
-  border: solid 1px tomato;
 }
 
 .logo-footer {
@@ -472,7 +473,6 @@ img {
 .join-box {
   display: flex;
   flex-direction: column;
-  border: solid 1px tomato;
 }
 
 .join-title {
@@ -486,6 +486,9 @@ img {
   color: var(--third-txt-cl);
 }
 
+.join-item {
+  display: flex;
+}
 .join-link {
   margin-right: 10px;
   width: 44px;
